@@ -1,0 +1,46 @@
+// @import "mpbile.scss";
+
+// @media screen and (max-width: 601px) {
+//   @import "desktop.scss";
+// }
+body {
+  background-color: #7fc8e2;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+}
+.main-container {
+  width: 1036px;
+  height: 601px;
+  padding: 0.5em 1em;
+  margin: 8em 0;
+  font-weight: bold;
+  color: #fff;
+  background: #7fc8e2;
+  border: solid 3px #fff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-container-left h3 {
+  font-size: 40px;
+  line-height: 11px;
+  font-weight: normal;
+  margin-top: 67px;
+}
+.main-container-left h1 {
+  font-size: 55px;
+  line-height: 2em;
+}
+.main-container-right {
+  height: 499px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
