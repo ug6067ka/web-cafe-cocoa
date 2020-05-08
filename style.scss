@@ -7,7 +7,8 @@ body {
   background-color: #7fc8e2;
 }
 
-.main-page {
+.mainpage {
+  height: 879px;
   display: flex;
   justify-content: center;
 }
@@ -15,11 +16,11 @@ body {
   width: 1036px;
   height: 601px;
   padding: 0.5em 1em;
-  margin: 8em 0;
+  margin: 5em 0;
   font-weight: bold;
   color: #fff;
   background: #7fc8e2;
-  border: solid 3px #fff;
+  border: solid 9px #fff;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
@@ -38,9 +39,86 @@ body {
 }
 .main-container-right {
   height: 499px;
-  background-color: red;
   display: flex;
   justify-content: center;
   align-content: center;
   margin-top: 50px;
+}
+.mainpage-bottom {
+  background-color: #fff;
+}
+.mainpage-bottom-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  height: 293px;
+}
+.mainpage-bottom-title {
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+.mainpage-bottom-title :before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px; /*下線の上下位置調整*/
+  display: inline-block;
+  width: 50px; /*下線の幅*/
+  height: 2px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #666666; /*下線の色*/
+}
+
+.mainpage-bottom-inner {
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.secondary-container {
+  display: flex;
+  flex-direction: row;
+  height: 879px;
+}
+.secondary-container-left {
+  width: 50%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.secondary-container-inner {
+  padding-left: 131px;
+}
+.secondary-left-title {
+  font-size: 29px;
+  font-weight: bold;
+}
+
+.secondary-container-right {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondar-right-img {
+  padding: 2.5em 4em;
+  margin: 5em 0;
+  font-weight: bold;
+  color: #fff;
+  background: #7fc8e2;
+  border: solid 3px #fff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
