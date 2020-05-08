@@ -2,7 +2,7 @@
 
 [Page Review]
 Page Review
-![](UI/UXdesign.png)
+![](UIUXdesign.png)
 
 ## Web Development
 @@ -9,11 +9,12 @@ This website is for practicing UI/UX design HTML, CSS(SCSS), pure JavaScript, a
