@@ -1,27 +1,36 @@
-# web-cafe-cocoa
-Name 
-====
+# Web UI/UX design Practice
 
-Overview
+[Page Review]
+Page Review
+![](UI/UXdesign.png)
 
-## Description
+## Web Development
+@@ -9,11 +9,12 @@ This website is for practicing UI/UX design HTML, CSS(SCSS), pure JavaScript, a
 
-## Demo
-
-## VS. 
-
-## Requirement
 
 ## Usage
 
-## Install
+Clone the repository
 
-## Contribution
+```sh
+ git clone https://github.com/lifenautjoe/webpack-starter-basic PROJECT-NAME
+ cd PROJECT-NAME
+ git clone https://github.com/ug6067ka/web-cafe-cocoa
+```
 
-## Licence
+Install npm dependencies
+@@ -22,14 +23,6 @@ Install npm dependencies
+ npm install
+```
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+Run the kickstart command
 
-## Author
+```sh
+npm run kickstart
+```
 
-[tcnksm](https://github.com/tcnksm)
+**After the project has been kickstarted**
+
+To start the development server
+
+```sh
