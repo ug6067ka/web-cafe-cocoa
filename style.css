@@ -197,6 +197,10 @@ body {
 }
 
 .thirdly-right-img img {
-  padding: 25px;
+  padding: 0px 25px;
+}
+
+.thirdly-left-title {
+  padding-left: 0px;
 }
 /*# sourceMappingURL=style.css.map */
